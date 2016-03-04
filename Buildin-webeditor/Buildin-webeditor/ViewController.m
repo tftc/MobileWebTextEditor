@@ -17,6 +17,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    NSString *page = [[NSBundle mainBundle] pathForResource:@"froala_editor/html/index.html" ofType:@""];
+    NSLog(@"index.html : %@", page);
+    NSString *html = [NSString stringWithContentsOfFile:page encoding:NSUTF8StringEncoding error:nil];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"froala_editor/html" ofType:@""];
+    NSLog(@"path : %@", path);
+    [self.webview loadHTMLString:html baseURL:[NSURL fileURLWithPath:path]];
 }
 
 - (void)didReceiveMemoryWarning {

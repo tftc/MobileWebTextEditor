@@ -15,6 +15,7 @@
 		7449E5801C896D8300CB072D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7449E57E1C896D8300CB072D /* LaunchScreen.storyboard */; };
 		7449E58B1C896D8300CB072D /* Buildin_webeditorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7449E58A1C896D8300CB072D /* Buildin_webeditorTests.m */; };
 		7449E5961C896D8300CB072D /* Buildin_webeditorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7449E5951C896D8300CB072D /* Buildin_webeditorUITests.m */; };
+		7449E5A61C899AF900CB072D /* froala_editor in Resources */ = {isa = PBXBuildFile; fileRef = 7449E5A51C899AF900CB072D /* froala_editor */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		7449E5911C896D8300CB072D /* Buildin-webeditorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Buildin-webeditorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7449E5951C896D8300CB072D /* Buildin_webeditorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Buildin_webeditorUITests.m; sourceTree = "<group>"; };
 		7449E5971C896D8300CB072D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7449E5A51C899AF900CB072D /* froala_editor */ = {isa = PBXFileReference; lastKnownFileType = folder; path = froala_editor; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				7449E57C1C896D8300CB072D /* Assets.xcassets */,
 				7449E57E1C896D8300CB072D /* LaunchScreen.storyboard */,
 				7449E5811C896D8300CB072D /* Info.plist */,
+				7449E5A51C899AF900CB072D /* froala_editor */,
 				7449E5701C896D8200CB072D /* Supporting Files */,
 			);
 			path = "Buildin-webeditor";
@@ -243,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7449E5A61C899AF900CB072D /* froala_editor in Resources */,
 				7449E5801C896D8300CB072D /* LaunchScreen.storyboard in Resources */,
 				7449E57D1C896D8300CB072D /* Assets.xcassets in Resources */,
 				7449E57B1C896D8200CB072D /* Main.storyboard in Resources */,
